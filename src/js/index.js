@@ -1,11 +1,11 @@
 import { gsap } from 'gsap';
-import "splitting/dist/splitting.css";
-import "splitting/dist/splitting-cells.css";
+import "Splitting-master/dist/splitting.css";
+import "splitting-master/dist/splitting-cells.css";
 import Splitting from "splitting";
 import { preloadImages } from './utils';
 import { CursorText } from './cursor';
 import { Slide } from './slide';
-import { Observer } from 'gsap/Observer.js';
+import { Observer } from 'gsap-public/src/Observer.js';
 gsap.registerPlugin(Observer);
 
 // Call the splittingjs to transform the data-splitting texts to spans of chars 

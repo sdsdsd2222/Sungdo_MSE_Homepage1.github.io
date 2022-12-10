@@ -2226,9 +2226,6 @@ body, input, select, textarea {
 
 			}
 /* video */
-.video { width: 100%; height: 500px; overflow: hidden; margin: 0px auto; position: relative; }
-video { width: 100%; }
-
 /* List */
 
 	ol {
@@ -3447,8 +3444,15 @@ video { width: 100%; }
 			z-index: 2;
 		}
 
-			#banner > .inner .image {
+			#banner > .inner .video {
 				display: none;
+				width: 100%; 
+				height: 500px; 
+				overflow: hidden; 
+				margin: 0px auto; 
+				position: relative; }
+
+
 			}
 
 			#banner > .inner header {
